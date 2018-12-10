@@ -1,0 +1,28 @@
+//Git Bash can be downloaded from https://git-scm.com/download/win
+
+
+$ git config --global user.name "g-lokesh"
+
+$ git config --global user.email "guduguntlalokesh@gmail.com"
+
+$ cd Desktop/
+
+$ cd TestGithub/
+
+$ git status
+//Tell the pending changes that has to move to repository
+
+$ git push
+
+$ touch newfile.txt
+//Touch is used to create the file.
+
+$ vim newfile.txt
+//clicking 'i' will get into Insert mode to add the content
+//After adding the content click on escape button. So we can get out from the Insert mode.
+//Then to exit the window type :x and click enter.
+
+$ git add newfile.txt
+
+$ git commit -m "new file added to repository"
+
